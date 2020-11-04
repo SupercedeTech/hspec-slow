@@ -25,7 +25,6 @@ library
                        , transformers
                        , mtl
                        , hspec
-                       , call-stack
                        , hspec-core
   default-language:    Haskell2010
 

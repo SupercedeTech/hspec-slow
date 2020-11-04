@@ -14,7 +14,6 @@ import           Control.Monad.Reader
 import           Control.Monad.STM
 import           Data.Time.Clock
 import           Test.Hspec
-import           Data.CallStack
 import           Data.Maybe
 import           Test.Hspec.Core.Spec
 
@@ -59,7 +58,6 @@ slowReport s = do
     slows <- readTVarIO (tracker s)
     putStrLn "Slow examples:"
     mapM_ (\(t, v) -> putStrLn $ show v ++ ": " ++ t) slows
-
 
 timedHspec :: SlowConfiguration -> (Timer -> SpecWith ()) -> IO ()
 timedHspec t x = hspec $ (afterAll_ . slowReport) t $ x (timed t)

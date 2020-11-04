@@ -1,5 +1,5 @@
 name:                hspec-slow
-version:             0.1.0.0
+version:             0.2.0.0
 synopsis:            Find slow test cases
 description:         Records and prints out slow Hspec tests
 homepage:            https://github.com/bobjflong/hspec-slow#readme
@@ -10,7 +10,10 @@ maintainer:          robertjflong@gmail.com
 copyright:           2016 Bob Long
 category:            Testing
 build-type:          Simple
--- extra-source-files:
+extra-source-files:
+    Readme.md
+    LICENSE
+    Changelog.md
 cabal-version:       >=1.10
 
 library
@@ -22,6 +25,8 @@ library
                        , transformers
                        , mtl
                        , hspec
+                       , call-stack
+                       , hspec-core
   default-language:    Haskell2010
 
 test-suite hspec-slow-test

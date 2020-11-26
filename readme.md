@@ -21,6 +21,8 @@ main = do
         1 `shouldBe` 1
 ```
 
+Checkout [hspec slow everything](#hspec-slow-everything) to run this on your entire test suite.
+
 ## Example Output
 
 ```

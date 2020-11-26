@@ -19,7 +19,7 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Test.Hspec.Slow
-  build-depends:       base >= 4.7 && < 5
+  build-depends:       base >= 4.7 && < 4.15
                        , stm
                        , time
                        , transformers

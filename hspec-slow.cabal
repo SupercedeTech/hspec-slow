@@ -11,7 +11,7 @@ copyright:           2016 Bob Long
 category:            Testing
 build-type:          Simple
 extra-source-files:
-    Readme.md
+    readme.md
     LICENSE
     Changelog.md
 cabal-version:       >=1.10

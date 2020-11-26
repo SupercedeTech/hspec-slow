@@ -44,4 +44,4 @@ test-suite hspec-slow-test
 
 source-repository head
   type:     git
-  location: https://github.com/bobjflong/hspec-slow
+  location: https://github.com/riskbook/hspec-slow

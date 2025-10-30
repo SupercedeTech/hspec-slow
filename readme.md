@@ -1,4 +1,14 @@
-‼️ **This package is now redundant, as hspec added support for timing.**
+<div align="center">
+
+‼️ **This package is now redundant, as hspec [added support for timing](https://hackage.haskell.org/package/hspec-2.11.14/changelog#changes-in-280).** ‼️
+
+</div>
+
+
+---
+
+<details>
+  <summary>Click to expand the old docs</summary>
 
 ## hspec-slow
 

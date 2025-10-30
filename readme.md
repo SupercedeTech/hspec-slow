@@ -1,3 +1,5 @@
+‼️ **This package is now redundant, as hspec added support for timing.**
+
 ## hspec-slow
 
 Track and display slow specs in Hspec runs.
